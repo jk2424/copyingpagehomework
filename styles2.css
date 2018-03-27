@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.header-container {
+  color: #fff;
+  background-color: #2B2E36;
+  padding: 50px 50px;
+  height: 125px;
+  display: inline-block;
+  width: 75%;
+  /* justify-content: space-between; */
+}
+
+.header{
+  display:flex;
+  float:left;
+}
+
+.profile-section{
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.logo{
+  display: inline-block;
+  font-size: 40px;
+  font-family: arial;
+  width: 50%;
+  float:left;
+
+
+}
+
+
+.icon{
+  float:left;
+}
+
+.user{
+  font-size: 20px;
+  padding-top: 7px;
+  float: right;
+}
+
+
+
+.corner-box{
+  height: 150px;
+  width: 200px;
+  background-color: #202329;
+  color: #fff;
+  padding-top: 100px;
+  display: inline-block;
+  float: right;
+  width: 25%;
+}
+
+.nav-bar{
+  color: #fff;
+  background-color: #2B2E36;
+  padding: 0px 75px;
+  /* clear: left; */
+}
+
+.nav-links {
+  /* border: 1px solid ;  /* For debugging */
+  display: flex;
+  float: left;
+  width: 50%;
+
+}
+
+#photos, #videos, #audio, #notes, #links{
+  padding-left: 20px;
+  padding-right: 20px
+}
